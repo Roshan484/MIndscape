@@ -28,26 +28,26 @@ const NavLinks = ({ scrolled }) => {
         About
       </Link>
       <Link
-        href="/advice"
+        href="/jobs"
         className={`${
-          pathname === "/advice"
+          pathname === "/jobs"
             ? "relative after:absolute  after:top-full after:pt-1 after:left-0 after:border-b-2 after:border-red-500 after:w-full"
             : ""
         }`}
       >
-        Advice
+        Jobs
+      </Link>
+      <Link
+        href="/blogs"
+        className={`${
+          pathname === "/blogs"
+            ? "relative after:absolute  after:top-full after:pt-1 after:left-0 after:border-b-2 after:border-red-500 after:w-full"
+            : ""
+        }`}
+      >
+        Blogs
       </Link>
 
-      <Link
-        href="/therapist-job"
-        className={`${
-          pathname === "/therapist-job"
-            ? "relative after:absolute  after:top-full after:pt-1 after:left-0 after:border-b-2 after:border-red-500 after:w-full"
-            : ""
-        }`}
-      >
-        Therapist Job
-      </Link>
       <Link
         href="/contact"
         className={`${

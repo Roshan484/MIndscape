@@ -9,29 +9,8 @@ const Testimonial = () => {
       image: "/images/mindscape.png",
       company: "CEO at Google",
       description:
-        "Flowbite is just awesome. It contains tons of predesignedcomponents and pages starting from login screen to complexdashboard. Perfect choice for your next SaaS application.",
+        "Mindscape is just awesome. It contains tons of predesignedcomponents and pages starting from login screen to complexdashboard. Perfect choice for your next SaaS application.",
     },
-    // {
-    //   id: 2,
-    //   name: "Micheal Gough",
-    //   company: "CEO at Google",
-    //   description:
-    //     "Flowbite is just awesome. It contains tons of predesignedcomponents and pages starting from login screen to complexdashboard. Perfect choice for your next SaaS application.",
-    // },
-    // {
-    //   id: 3,
-    //   name: "Micheal Gough",
-    //   company: "CEO at Google",
-    //   description:
-    //     "Flowbite is just awesome. It contains tons of predesignedcomponents and pages starting from login screen to complexdashboard. Perfect choice for your next SaaS application.",
-    // },
-    // {
-    //   id: 4,
-    //   name: "Micheal Gough",
-    //   company: "CEO at Google",
-    //   description:
-    //     "Flowbite is just awesome. It contains tons of predesignedcomponents and pages starting from login screen to complexdashboard. Perfect choice for your next SaaS application.",
-    // },
   ];
   return (
     <>

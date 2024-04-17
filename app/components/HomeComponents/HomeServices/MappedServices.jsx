@@ -70,7 +70,7 @@ const MappedServices = () => {
   return (
     <div className="relative bg-[url('/images/bg-texture.png')] bg-primary  h-fit  flex flex-col items-center justify-center">
       <div className="absolute bottom-0 left-0 right-0 bg-[url('/images/divider.png')] h-[4.5rem]"></div>
-      <div className=" mx-20 py-44 ">
+      <div className=" mx-20 py-28 mt-28 ">
         <div className="text-white font-medium">
           <h1 className="text-4xl text-center">
             “Embrace Your Journey, Every Mind Matters”

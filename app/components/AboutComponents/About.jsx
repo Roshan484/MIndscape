@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Design from "../DesignComponent/Design";
-
+import AboutTeam from "./AboutTeam";
 const About = () => {
   return (
     <>
@@ -17,12 +17,12 @@ const About = () => {
                 <h2 className="mb-5 text-xl font-bold text-dark  sm:text-[40px]/[48px]">
                   Make your customers happy by giving services.
                 </h2>
-                <p className="mb-5 text-base text-body-color dark:text-dark-6">
+                <p className="mb-5 text-base">
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page when looking at its layout.
                   The point of using Lorem Ipsum is that it has a more-or-less.
                 </p>
-                <p className="mb-8 text-base text-body-color dark:text-dark-6">
+                <p className="mb-8 text-base ">
                   A domain name is one of the first steps to establishing your
                   brand. Secure a consistent brand image with a domain name that
                   matches your business.
@@ -74,6 +74,7 @@ const About = () => {
               </div>
             </div>
           </div>
+          <AboutTeam />
         </div>
       </section>
     </>
