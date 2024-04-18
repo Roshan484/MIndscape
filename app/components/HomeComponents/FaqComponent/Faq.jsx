@@ -31,12 +31,7 @@ function Faq() {
       </p>
       <ul className="space-y-4">
         {faqs.map((faq, i) => (
-          <FaqComp
-            title={faq.title}
-            content={faq.content}
-            first={i === 0}
-            key={`faq_${i}`}
-          />
+          <FaqComp {...faq} first={i === 0} key={`faq_${i}`} />
         ))}
       </ul>
       <div className="mt-20 flex justify-center">

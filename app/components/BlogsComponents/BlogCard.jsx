@@ -46,12 +46,12 @@ const BlogCard = () => {
   ];
   return (
     <>
-      <div className="max-w-screen-2xl mx-auto">
+      <div className="">
         <section className="py-10">
           <h1 className="mb-12 text-center font-sans text-5xl font-bold">
             Our Blog
           </h1>
-          <div className="mx-auto grid max-w-screen-lg justify-center px-4 sm:grid-cols-2 sm:gap-4 sm:px-8 md:grid-cols-3">
+          <div className="mx-auto grid max-w-screen-2xl justify-center px-4 sm:grid-cols-2 sm:gap-4 sm:px-8 md:grid-cols-3">
             {details.map((detail) => (
               <Card key={`details___${detail.id}`} {...detail} />
             ))}

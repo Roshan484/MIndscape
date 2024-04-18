@@ -12,7 +12,7 @@ const ServicesCard = ({
 }) => {
   return (
     <div
-      className={`group relative w-[350px] h-80 rounded-3xl hover:border-[2px] hover:border-white bg-cover ${style} `}
+      className={`group relative w-[350px]  h-80 rounded-3xl hover:border-[2px] hover:border-white bg-cover ${style} `}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       style={{
